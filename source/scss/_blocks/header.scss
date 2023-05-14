@@ -1,0 +1,45 @@
+
+
+.header {
+    font-family: 'Raleway', sans-serif;
+
+
+
+    &__nav {
+        display: flex;
+        @include font (18px, 21px, 600);
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    &__nav-list {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__nav-link:hover {
+        @include hover;
+    }
+
+    &__btn {
+        background: none;
+        border: none;
+        text-decoration: underline;
+        color: $color-text;
+
+        &:hover {
+            @include hover;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        
+        &_tel {
+            @include font (20px, 24px, 600);
+        }
+    }
+}

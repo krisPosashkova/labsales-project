@@ -1,0 +1,23 @@
+@import "_mixins";
+@import "_variables.base";
+
+/*
+  Import vendor libraries
+*/
+@import "vendor/_normalize";
+
+/*
+  Import utils classes and base styles
+*/
+@import "_utils";
+@import "_base";
+@import "_fonts";
+
+/*
+  Import all other blocks
+*/
+@import "_blocks/container";
+@import "_blocks/header";
+@import "_blocks/footer";
+
+
